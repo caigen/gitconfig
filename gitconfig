@@ -1,0 +1,9 @@
+[user]
+	email = caigen@outlook.com
+	name = caigen
+[diff]
+	tool = vimdiff
+[difftool]
+	prompt = false
+[alias]
+	d = difftool

@@ -1,0 +1,25 @@
+1, local workflow:
+    git init
+    git status
+    git add <file_name>
+    git commit -m "the change message"
+    git log
+
+2, local to remote workflow
+    git remote add <name> <url> // set the remote
+    git push origin master
+    git pull origin master      // git fetch origin & git merge master
+
+3, branch and merge workflow
+    git branch <branch_name>    // ceate a new branch
+    git checkout <branch_name>  // go to the new branch
+    git checkout master         // back to master branch
+    git merge <branch_master>   // branch_name -> master
+    git branch -d <branch_name> // delete the branch
+
+4,  make contribution workflow
+    fork at github.com
+    git clone                   // clone the branch to local space
+    git commit                  // local space
+    git push origin master      // the remote space
+    pull request                // space fork from
